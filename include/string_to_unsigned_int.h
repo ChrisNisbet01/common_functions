@@ -3,6 +3,9 @@
 
 #include <stdbool.h>
 
-unsigned int token_to_unsigned_int(char const * const token, bool * is_numeric);
+/* If the value of string is an integer value, place the value 
+ * into integer_value and return true, else return false. 
+ */
+bool string_to_unsigned_int(char const * const string, unsigned int * const integer_value);
 
 #endif /* __STRING_TO_UNSIGNED_INT_H__ */
